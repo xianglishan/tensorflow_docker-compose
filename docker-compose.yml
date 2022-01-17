@@ -1,0 +1,11 @@
+version: "3"
+services:
+  tf:
+    image: tensorflow/tensorflow:latest-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - /home/xiang/tf/notebooks:/tf/notebooks
+      - /home/xiang/.ssh:/tf/.ssh
+      - /home/xiang/.gitconfig:/tf/.gitconfig
+    # docker run -it -p 8888:8888 -v /home/xiang/tf:/tf/notebooks tensorflow/tensorflow:latest-jupyter
