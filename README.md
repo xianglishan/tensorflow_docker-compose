@@ -3,8 +3,8 @@
 
 ## how to use
 ```bash
-git clone https://github.com/xianglishan/pytorch_docker-compose.git
-cd pytorch_docker-compose/
+git clone https://github.com/xianglishan/tensorflow_docker-compose.git
+cd tensorflow_docker-compose/
 docker-compose up -d --build
 ```
 
